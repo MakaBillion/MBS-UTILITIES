@@ -1,0 +1,6 @@
+{
+  "name": "MBSUTILITIES - Free Industrial Scrap Metal & E-Waste Collection",
+  "description": "Free collection of industrial scrap iron, metal and e-waste from engineering firms, fabrication workshops and manufacturing yards in Middelburg, Mpumalanga.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

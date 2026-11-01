@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Archivo", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #1A1A1A;
+  color: #D4D4D8;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-mono, .tech-label {
+  font-family: var(--font-mono);
+}
+
+/* Technical hairline divider */
+.hairline-orange {
+  height: 1px;
+  background-color: rgba(255, 107, 0, 0.2);
+}
+
+/* Custom glow on hover for buttons */
+.btn-industrial {
+  background-color: #FF6B00;
+  color: #000000;
+  font-weight: 700;
+  border-radius: 0;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.2s ease;
+}
+
+.btn-industrial:hover {
+  background-color: #FF7D1F;
+  transform: translateX(-3px);
+  box-shadow: 0 0 25px rgba(255, 107, 0, 0.45);
+}
