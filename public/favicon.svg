@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Charcoal Industrial Background -->
+  <rect width="512" height="512" fill="#141414" />
+  <!-- Safety Orange Outer Frame / Ring (visible in both square and Google's circular crop) -->
+  <circle cx="256" cy="256" r="236" fill="#FF6B00" />
+  <circle cx="256" cy="256" r="204" fill="#141414" />
+  <!-- Bold Industrial Geometric "M" -->
+  <path
+    d="M142 356 V164 H196 L256 262 L316 164 H370 V356 H320 V244 L268 328 H244 L192 244 V356 Z"
+    fill="#FFFFFF"
+  />
+  <!-- Safety Orange Accent Bar Underneath -->
+  <rect x="142" y="376" width="228" height="22" fill="#FF6B00" />
+</svg>
