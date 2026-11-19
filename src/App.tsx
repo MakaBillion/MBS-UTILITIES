@@ -316,10 +316,10 @@ Please confirm earliest available collection slot.`;
           <a
             href="#top"
             className="flex items-center gap-2 group focus:outline-none"
-            aria-label="MBS UTILITIES Home"
+            aria-label="MBS UTILITIES. Home"
           >
             <span className="font-heading font-black tracking-widest text-2xl md:text-3xl text-white group-hover:opacity-90 transition-opacity">
-              MBS UTILITIES
+              MBS UTILITIES<span className="text-[#FF6B00]">.</span>
             </span>
           </a>
 
@@ -1775,7 +1775,7 @@ Please confirm earliest available collection slot.`;
                 M
               </div>
               <span className="font-heading font-black tracking-widest text-xl text-white">
-                MBS<span className="text-[#FF6B00]">UTILITIES</span>
+                MBS <span className="text-[#FF6B00]">UTILITIES.</span>
               </span>
             </div>
 
